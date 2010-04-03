@@ -1,0 +1,60 @@
+body {
+  background : #f8f8f8;
+  color : #333;
+  margin : 0;
+  padding : 10px 20px;
+  font-family : Helvetica, sans-serif;
+  font-size : 75%;
+  line-height : 1.4;
+}
+
+code, pre {
+  font-family : Consolas, Lucida Console, monospace;
+}
+
+h1 {
+  margin : 0;
+}
+h2 {
+  font-size : 1.2em;
+  margin : .5em 0;
+}
+
+hr {
+  color : #ccc;
+  height : 0;
+  border : 0;
+  border-top : 1px solid #ccc;
+  margin : 1em 0;
+}
+
+.sokoban :focus {
+  outline : 1px dotted black;
+}
+
+#nav div,
+#top p {
+  max-width : 50em;
+}
+
+a {
+  text-decoration : none;
+  color : #00c;
+}
+a:visited {
+  color : #066;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration : underline;
+  color : #c00;
+}
+
+em {
+  color : #000;
+}
+
+#nav a {
+  white-space : nowrap;
+}

@@ -1,0 +1,55 @@
+.soko-floor,
+.soko-wall,
+.soko-dock,
+.soko-indent {
+  display : block;
+  height : 20px;
+  width : 20px;
+  float : left;
+  overflow : hidden;
+  text-indent : -999em;
+}
+.soko-line {
+  overflow : hidden;
+}
+.soko-room {
+  display : inline-block;
+  padding : 1px;
+  line-height : 1;
+}
+.soko-indent,
+.soko-floor,
+.soko-wall,
+.soko-dock,
+.soko-box,
+.soko-worker {
+  background : #c5c5c5;
+}
+
+.soko-indent {
+  background : #4c4;
+}
+.soko-wall {
+  background : #861410 url(sprites.png) 0 0 no-repeat;
+}
+.soko-dock {
+  background : #c5c5c5 url(sprites.png) 0 -60px no-repeat;
+}
+.soko-box {
+  background : #c5c5c5 url(sprites.png) 0 -20px no-repeat;
+}
+.soko-worker {
+  background : #c5c5c5 url(sprites.png) 0 -80px no-repeat;
+}
+.soko-box.soko-dock {
+  background : #c5c5c5 url(sprites.png) 0 -40px no-repeat;
+}
+.soko-solved .soko-room * {
+  opacity : .8;
+}
+.soko-room:after {
+  content : attr(title);
+  display : block;
+  text-align : center;
+  font-size : .9em;
+}
