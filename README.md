@@ -6,29 +6,29 @@ An implementation of Sokōban in JavaScript, as a [jQuery] plugin. It parses and
 
 1. Include a reference to the plugin (and jQuery) to the `<head>` section of your document:
 ```html
-        <script src="jquery.min.js"></script>
-        <script src="jquery.sokoban.js"></script>
+<script src="jquery.min.js"></script>
+<script src="jquery.sokoban.js"></script>
 ```
 
 2. Add a Sokoban puzzle to your HTML document:
 ```html
-        <pre class="sokoban">
-        ####
-        # .#
-        #  ###
-        #*@  #
-        #  $ #
-        #  ###
-        ####
-        </pre>
+<pre class="sokoban">
+####
+# .#
+#  ###
+#*@  #
+#  $ #
+#  ###
+####
+</pre>
 ```
 3. Run the game when the document loads:
 ```html
-        <script>
-        jQuery(function($){
-          $('pre.sokoban').sokoban();
-        });
-        </script>
+<script>
+jQuery(function($){
+  $('pre.sokoban').sokoban();
+});
+</script>
 ```
 
 
